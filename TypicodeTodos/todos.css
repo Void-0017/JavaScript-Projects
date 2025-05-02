@@ -1,0 +1,76 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  position: absolute;
+}
+
+.container {
+  border-radius: 15%;
+  background-color: rgb(48, 48, 162);
+  height: 30rem;
+  width: 400px;
+  max-width: max-content;
+  max-height: max-content;
+}
+
+h1 {
+  position: relative;
+  top: 2rem;
+  left: 15rem;
+}
+
+input {
+  position: relative;
+  top: 5rem;
+  left: 5rem;
+  width: 20rem;
+  height: 2rem;
+}
+
+.btn-add {
+  position: relative;
+  left: 8rem;
+  top: 5rem;
+  background-color: rgb(159, 119, 45);
+  width: 8rem;
+  height: 3rem;
+  border-radius: 15%;
+}
+
+.btn-get {
+  position: relative;
+  right: 15rem;
+  top: 10rem;
+  background-color: rgb(159, 119, 45);
+  width: 8rem;
+  height: 3rem;
+  border-radius: 15%;
+}
+
+.dta-container {
+  position: relative;
+  margin-left: 20px;
+  top: 12rem;
+  width: 90%;
+  display: flex;
+  text-wrap: wrap;
+  text-wrap-mode: wrap;
+  background-color: black;
+  color: white;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 1fr 1fr 7fr 3fr;
+  gap: 2px;
+}
