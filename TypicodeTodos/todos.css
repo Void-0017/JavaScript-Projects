@@ -65,8 +65,12 @@ input {
   display: flex;
   text-wrap: wrap;
   text-wrap-mode: wrap;
+  background-color: white;
+  color: orange;
+}
+
+.done {
   background-color: black;
-  color: white;
 }
 
 li {
